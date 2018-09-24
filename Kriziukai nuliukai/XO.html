@@ -1,0 +1,24 @@
+<html>
+	<head>
+		<link rel="stylesheet" type="text/css" href="ox.css">
+	</head>
+	<body>
+			<!-- Tik po reseto pasikeis pasirinkimas -->
+			<button value = "PvsP" onclick = "document.getElementById('One').value = '1'" class = "select"> Player Vs Player </button>
+			<br>
+			<button value = "PvsPC" onclick = "document.getElementById('One').value = '0'" class = "select"> Player vs Pc </button>
+			<p id = "One" class = "button"> </p>
+		<div id = "table"> </div>
+		<center>
+			<div id = "players"> </div> <!-- Kuris zaidejas turi deti -->
+			<div id = "test"> </div> <!-- Is cia gaunama kur nori deti ty. skaiciu kuris atstos JS id -->
+			<input type = "button" onclick = "table()" value = "Reset"> </input> <!-- Reset button -->
+			<p id = "text"> </p> <!-- Textas padeti zaidejams -->
+			<p id = "gam"> </p> <!-- Rasoma kad jau zadimas baigias -->
+			<div id = "ap1"> </div>
+			<div id = "ap2"> </div>
+			<div id = "ad"> </div>
+		</center>
+		<script src="new.js"></script>
+	</body>
+</html>

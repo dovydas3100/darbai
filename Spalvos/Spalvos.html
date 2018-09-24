@@ -1,0 +1,30 @@
+<html>
+	<head>
+		<link rel="stylesheet" type="text/css" href="spalvos.css"> </link>
+	</head>
+	<body id = "bod">
+		<div id = "menu">
+			<center>
+				<button id = "play" onclick = "go()"> Play </button>
+				<p> 
+					Recommended 3x3 :) 
+				</p>
+				<p>
+					Columns: <input id = "x"/>
+					Rows: <input id = "y"/>
+				<p>
+				<button id = "dif" onclick = "show()"> Difficulty </button>
+					<button id = "hard" onclick = "hard()"> Hard difficulty </button>
+					<button id = "normal" onclick = "normal()"> Normal difficulty </button>
+					<button id = "easy" onclick = "easy()"> Easy difficulty </button>
+			</center>
+		</div>
+		<center>
+			<div id = "table"> </div>
+			<div id = "tab"> </div>
+			<div id = "score"> </div>
+			<progress value="100" max="100" id = "hp"> </progress>
+		</center>
+		<script src = "spalvos.js"></script>
+	</body>
+</html>

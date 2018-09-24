@@ -1,0 +1,39 @@
+table{
+	margin: auto;
+	border: none;
+}
+td{
+	padding: 50px;
+	font-size: 50px;
+	border:  1px solid #333;
+	height:  175px;
+	width:  120px;
+	text-align:  center;
+	font-family:  "Comic Sans MS", cursive, sans-serif;
+	cursor: pointer;
+	text-shadow: 4px 5px #282828
+}
+.button{
+	display: none;
+}
+body{
+	background-color: #375372;
+	color: #F0F0F0;
+	font-size: 25px;
+}
+td:hover{
+	background-color: #0083af;
+}
+.select{
+	background-color: #375372;
+	color: white;
+	border: 1px solid white;
+	transition-duration: 0.5s;
+}
+.select:hover{
+	cursor: pointer;
+	color: black;
+	background-color: white;
+	border: black;
+	transform: translate(3em,0) scale(1.1);
+}
